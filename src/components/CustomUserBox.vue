@@ -15,6 +15,9 @@
                  </h3>
              </div>
             <div class="kiwi-userbox-usermask">{{ user.username }}@{{ user.host }}</div>
+            <span v-if="isSelf">
+                <a href="https://www.simosnap.org/account" target="_blank">Carica/Modifica Avatar</a>
+            </span>
         </div>
 
         <div class="kiwi-userbox-basicinfo">
